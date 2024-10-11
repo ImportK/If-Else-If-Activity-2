@@ -2,9 +2,9 @@
 function askGrade() {
     let score = prompt("Enter your score:");
     if (score >= 90) {
-        alert("Excellent");
+        alert("Excellent!");
     } else if (score >= 80) {
-        alert("Good");
+        alert("Good!");
     } else if (score >= 70) {
         alert("Fair");
     } else if (score < 70) {
